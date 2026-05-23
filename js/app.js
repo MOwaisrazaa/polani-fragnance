@@ -172,10 +172,13 @@
         case "star":
           return `<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="${g}" stroke-width="1.6"><path d="M12 2l3 7 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1 3-7z"/></svg>`;
         case "ig":
-        case "tt":
+          return `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="${g}" stroke-width="1.6"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.2" fill="${g}" stroke="none"/></svg>`;
         case "fb":
+          return `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="${g}" stroke-width="1.6"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>`;
+        case "tt":
+          return `<svg viewBox="0 0 24 24" width="18" height="18" fill="${g}" stroke="none"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z"/></svg>`;
         case "yt":
-          return `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="${g}" stroke-width="1.6"><circle cx="12" cy="12" r="8"/><path d="M8 12h8"/></svg>`;
+          return `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="${g}" stroke-width="1.6"><rect x="2" y="5" width="20" height="14" rx="4"/><polygon points="10,9 16,12 10,15" fill="${g}" stroke="none"/></svg>`;
         case "visa":
           return `<svg viewBox="0 0 84 40" width="64" height="30" role="img" aria-label="Visa"><rect x="1" y="1" width="82" height="38" rx="10" fill="#fff" stroke="rgba(0,0,0,.12)"/><text x="42" y="26" text-anchor="middle" font-family="Montserrat, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif" font-size="16" font-weight="800" fill="#1A1F71" letter-spacing="2">VISA</text></svg>`;
         case "mc":
