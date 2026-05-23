@@ -17,17 +17,52 @@
   <body class="page-cart">
     <a class="skip-link" href="#main">Skip to content</a>
 
-    <header class="header header--simple" data-header>
+    <div class="topbar">
+      <div class="container topbar__inner">
+        <div class="topbar__left">FREE SHIPPING ON ORDERS ABOVE RS 27,500</div>
+        <div class="topbar__right">
+          <a class="topbar__link" href="men.html">Track Order</a>
+          <span class="topbar__sep">|</span>
+          <a class="topbar__link" href="contact.html">Help</a>
+          <span class="topbar__sep">|</span>
+          <button class="topbar__btn" type="button" data-currency>
+            PKR (Rs) <span aria-hidden="true">▾</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <header class="header" data-header>
       <div class="container header__inner">
         <a class="brand" href="index.html" aria-label="Polani Fragrance Home">
           <span class="brand__wordmark">POLANI</span>
           <span class="brand__sub">FRAGRANCE</span>
         </a>
-        <nav class="nav nav--simple" aria-label="Primary">
-          <a class="nav__link" href="men.html">Shop</a>
-          <a class="nav__link" href="contact.html">Contact</a>
+
+        <button class="nav-toggle" type="button" aria-label="Open menu" data-nav-toggle>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+
+        <nav class="nav" aria-label="Primary" data-nav>
+          <a class="nav__link" href="index.html">Home</a>
+          <a class="nav__link" href="men.html">Men</a>
+          <a class="nav__link" href="men.html#women">Women</a>
+          <a class="nav__link" href="men.html#attars">Attars</a>
+          <a class="nav__link" href="men.html#oud">Oud</a>
+          <a class="nav__link" href="index.html#signature">Signature</a>
+          <a class="nav__link" href="men.html#candles">Scented Candles</a>
+          <a class="nav__link" href="contact.html">Contact Us</a>
         </nav>
+
         <div class="header-actions">
+          <button class="icon-btn" type="button" aria-label="Search" data-search-open>
+            <span class="icon" aria-hidden="true" data-icon="search"></span>
+          </button>
+          <button class="icon-btn" type="button" aria-label="Account">
+            <span class="icon" aria-hidden="true" data-icon="user"></span>
+          </button>
           <a class="icon-btn" href="cart.html" aria-label="Cart">
             <span class="icon" aria-hidden="true" data-icon="cart"></span>
             <span class="badge" data-cart-count>0</span>
@@ -36,40 +71,186 @@
       </div>
     </header>
 
-    <main id="main" class="section section--ivory">
-      <div class="container cart" data-cart-page>
-        <div class="cart__head">
-          <h1 class="section-title">Your Cart</h1>
-          <a class="btn btn--ghost btn--dark" href="men.html">Continue Shopping</a>
-        </div>
-
-        <div class="cart__grid">
-          <div class="cart__items" data-cart-items></div>
-
-          <aside class="cart__summary" aria-label="Summary">
-            <div class="summary">
-              <div class="summary__title">Order Summary</div>
-              <div class="summary__row"><span>Subtotal</span><span data-subtotal>$0.00</span></div>
-              <div class="summary__row"><span>Shipping</span><span class="muted">Calculated at checkout</span></div>
-              <div class="summary__row summary__row--total"><span>Total</span><span data-total>$0.00</span></div>
-
-              <form class="coupon" data-coupon>
-                <input type="text" name="coupon" placeholder="Coupon code" />
-                <button class="btn btn--ghost btn--dark" type="submit">Apply</button>
-              </form>
-              <a class="btn btn--primary w-100" href="checkout.html">Checkout</a>
-              <div class="mini-note muted">Demo checkout (no payment).</div>
+    <main id="main">
+      <section class="cart-hero">
+        <div class="cart-hero__bg" aria-hidden="true"></div>
+        <div class="container cart-hero__inner">
+          <div class="cart-hero__content">
+            <h1 class="cart-hero__title">Your Cart</h1>
+            <div class="breadcrumbs breadcrumbs--dark">
+              <a href="index.html">Home</a> <span aria-hidden="true">›</span> <span>Cart</span>
             </div>
-          </aside>
+          </div>
         </div>
-      </div>
+      </section>
+
+      <section class="section section--ivory">
+        <div class="container cart" data-cart-page>
+          <div class="cart__grid cart__grid--table">
+            <section class="cart-table" aria-label="Cart items">
+              <div class="cart-table__head" aria-hidden="true">
+                <div class="cart-table__h cart-table__h--product">Product</div>
+                <div class="cart-table__h">Price</div>
+                <div class="cart-table__h">Quantity</div>
+                <div class="cart-table__h">Subtotal</div>
+              </div>
+              <div class="cart-table__body" data-cart-items></div>
+
+              <div class="cart-actions">
+                <a class="cart-actions__link" href="men.html">← Continue shopping</a>
+                <button class="btn btn--ghost btn--dark cart-actions__btn" type="button" data-update-cart>
+                  Update cart <span aria-hidden="true">↻</span>
+                </button>
+              </div>
+            </section>
+
+            <aside class="cart__summary" aria-label="Order Summary">
+              <div class="summary summary--cart">
+                <div class="summary__title">Order Summary</div>
+                <div class="summary__row">
+                  <span>Subtotal (<span data-subtotal-items>0</span> items)</span>
+                  <span data-subtotal>Rs 0</span>
+                </div>
+                <div class="summary__row"><span>Shipping</span><span class="muted">Calculated at checkout</span></div>
+                <div class="summary__row summary__row--total summary__row--cart-total">
+                  <span>Total</span><span class="summary__total" data-total>Rs 0</span>
+                </div>
+
+                <a class="btn btn--ink w-100" href="checkout.html">Proceed to checkout</a>
+                <a class="btn btn--ghost btn--dark w-100" href="checkout.html">Buy it now</a>
+
+                <div class="secure">
+                  <div class="secure__title">
+                    <span class="icon" aria-hidden="true" data-icon="lock-dark"></span>
+                    Secure checkout
+                  </div>
+                  <div class="secure__sub muted">We accept</div>
+                  <div class="secure__payments" aria-label="Payments">
+                    <span class="pay pay--logo" data-icon="visa" aria-hidden="true"></span>
+                    <span class="pay pay--logo" data-icon="mc" aria-hidden="true"></span>
+                    <span class="pay pay--logo" data-icon="amex" aria-hidden="true"></span>
+                    <span class="pay pay--logo" data-icon="paypal" aria-hidden="true"></span>
+                    <span class="pay pay--logo" data-icon="applepay" aria-hidden="true"></span>
+                  </div>
+                </div>
+
+                <form class="coupon coupon--row" data-coupon>
+                  <div class="coupon__label muted">Have a coupon code?</div>
+                  <button class="coupon__btn" type="submit">APPLY COUPON →</button>
+                </form>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--ivory section--tight">
+        <div class="container trust">
+          <div class="trust__grid">
+            <div class="trust__item">
+              <span class="icon trust__icon" aria-hidden="true" data-icon="gift"></span>
+              <div>
+                <div class="trust__title">Luxury Packaging</div>
+                <div class="trust__text">Beautifully wrapped for you</div>
+              </div>
+            </div>
+            <div class="trust__item">
+              <span class="icon trust__icon" aria-hidden="true" data-icon="truck"></span>
+              <div>
+                <div class="trust__title">Free Shipping</div>
+                <div class="trust__text">On orders above Rs 27,500</div>
+              </div>
+            </div>
+            <div class="trust__item">
+              <span class="icon trust__icon" aria-hidden="true" data-icon="badge"></span>
+              <div>
+                <div class="trust__title">100% Authentic</div>
+                <div class="trust__text">Original &amp; authentic products</div>
+              </div>
+            </div>
+            <div class="trust__item">
+              <span class="icon trust__icon" aria-hidden="true" data-icon="headset"></span>
+              <div>
+                <div class="trust__title">Dedicated Support</div>
+                <div class="trust__text">We’re here to help you always</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
+      <div class="container footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">POLANI<br /><span>FRAGRANCE</span></div>
+          <p class="footer__desc">Crafted with passion. Bottled with elegance. Made for moments that matter.</p>
+          <div class="social">
+            <a class="social__link" href="#" aria-label="Instagram" data-icon="ig"></a>
+            <a class="social__link" href="#" aria-label="TikTok" data-icon="tt"></a>
+            <a class="social__link" href="#" aria-label="Facebook" data-icon="fb"></a>
+            <a class="social__link" href="#" aria-label="YouTube" data-icon="yt"></a>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          <div class="footer__title">Shop</div>
+          <a class="footer__link" href="men.html">Men</a>
+          <a class="footer__link" href="men.html#women">Women</a>
+          <a class="footer__link" href="men.html#attars">Attars</a>
+          <a class="footer__link" href="men.html#oud">Oud</a>
+          <a class="footer__link" href="index.html#signature">Signature</a>
+          <a class="footer__link" href="men.html#candles">Scented Candles</a>
+        </div>
+
+        <div class="footer__col">
+          <div class="footer__title">Customer Care</div>
+          <a class="footer__link" href="#">Track Order</a>
+          <a class="footer__link" href="#">Shipping &amp; Delivery</a>
+          <a class="footer__link" href="#">Returns &amp; Refunds</a>
+          <a class="footer__link" href="#">FAQ</a>
+          <a class="footer__link" href="#">Terms &amp; Conditions</a>
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </div>
+
+        <div class="footer__col">
+          <div class="footer__title">Contact Us</div>
+          <div class="footer__info">Email: info@polanifragrance.com</div>
+          <div class="footer__info">Phone: +1 (234) 567-8900</div>
+          <div class="footer__info">Mon–Fri: 9AM – 6PM (EST)</div>
+          <div class="footer__info">123 Luxury Lane, New York, NY 10001, USA</div>
+          <a class="footer__link footer__link--cta" href="contact.html">Get in touch</a>
+        </div>
+      </div>
+
       <div class="container footer__bottom">
         <div class="footer__copy">© <span data-year></span> Polani Fragrance. All rights reserved.</div>
+        <div class="footer__payments" aria-label="Payments">
+          <span class="pay pay--logo" data-icon="visa" aria-hidden="true"></span>
+          <span class="pay pay--logo" data-icon="mc" aria-hidden="true"></span>
+          <span class="pay pay--logo" data-icon="amex" aria-hidden="true"></span>
+          <span class="pay pay--logo" data-icon="paypal" aria-hidden="true"></span>
+          <span class="pay pay--logo" data-icon="applepay" aria-hidden="true"></span>
+        </div>
       </div>
     </footer>
+
+    <div class="drawer" role="dialog" aria-modal="true" aria-label="Search" hidden data-search>
+      <div class="drawer__overlay" data-search-close></div>
+      <div class="drawer__panel">
+        <div class="drawer__head">
+          <div class="drawer__title">Search</div>
+          <button class="icon-btn" type="button" aria-label="Close" data-search-close>
+            <span class="icon" aria-hidden="true" data-icon="x"></span>
+          </button>
+        </div>
+        <form class="search" data-search-form>
+          <label class="sr-only" for="q">Search</label>
+          <input id="q" name="q" class="search__input" type="search" placeholder="Search products…" />
+          <button class="btn btn--primary" type="submit">Search</button>
+        </form>
+        <div class="search__hint">Tip: try “Elixir”, “Oud”, “Candle”.</div>
+      </div>
+    </div>
   </body>
 </html>
-
