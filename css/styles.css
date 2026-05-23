@@ -751,6 +751,8 @@ button,input,select,textarea{font:inherit}
   position:absolute;
   inset:0;
   background:
+    linear-gradient(90deg, rgba(10,10,10,.62) 0%, rgba(10,10,10,.38) 44%, rgba(10,10,10,.12) 72%, rgba(10,10,10,.06) 100%),
+    url("../assets/cart_banner.jpeg") right center / cover no-repeat,
     radial-gradient(1100px 520px at 74% 58%, rgba(198,164,108,.20), rgba(10,10,10,0) 60%),
     radial-gradient(900px 520px at 18% 40%, rgba(255,255,255,.06), rgba(10,10,10,0) 62%),
     linear-gradient(180deg, rgba(10,10,10,.92), rgba(7,7,7,.98));
@@ -761,9 +763,8 @@ button,input,select,textarea{font:inherit}
   background:
     radial-gradient(900px 420px at 64% 64%, rgba(255,255,255,.07), rgba(10,10,10,0) 62%),
     radial-gradient(760px 380px at 30% 56%, rgba(198,164,108,.10), rgba(10,10,10,0) 66%),
-    repeating-linear-gradient(140deg, rgba(255,255,255,.02) 0 2px, rgba(10,10,10,0) 2px 16px),
-    linear-gradient(90deg, rgba(10,10,10,.92), rgba(10,10,10,.52) 45%, rgba(10,10,10,.92));
-  opacity:.62;
+    linear-gradient(90deg, rgba(10,10,10,.62), rgba(10,10,10,.22) 55%, rgba(10,10,10,.55));
+  opacity:.36;
   pointer-events:none;
 }
 .cart-hero:after{
@@ -779,6 +780,7 @@ button,input,select,textarea{font:inherit}
   display:grid;
   grid-template-columns: 1fr;
   align-items:center;
+  justify-items:start;
   gap:18px;
   padding:42px 0;
 }
@@ -788,8 +790,9 @@ button,input,select,textarea{font:inherit}
   margin:0 0 8px;
   font-size:56px;
   line-height:1.06;
+  text-align:left;
 }
-.cart-hero__content{max-width:720px}
+.cart-hero__content{max-width:720px; width:100%; text-align:left; margin-left:0; margin-right:auto;}
 
 .cart__head{display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:14px}
 .cart__grid{display:grid; grid-template-columns: 1fr 360px; gap:18px}
