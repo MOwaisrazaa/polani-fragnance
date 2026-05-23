@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Men — Polani Fragrance</title>
+    <meta name="description" content="Discover bold, refined and long-lasting fragrances crafted for the modern man." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="js/data.js"></script>
+    <script defer src="js/app.js"></script>
+  </head>
+  <body class="page-collection">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="topbar">
+      <div class="container topbar__inner">
+        <div class="topbar__left">Free shipping on orders above $99</div>
+        <div class="topbar__right">
+          <a class="topbar__link" href="#">Track Order</a>
+          <span class="topbar__sep">|</span>
+          <a class="topbar__link" href="contact.html">Help</a>
+        </div>
+      </div>
+    </div>
+
+    <header class="header" data-header>
+      <div class="container header__inner">
+        <a class="brand" href="index.html" aria-label="Polani Fragrance Home">
+          <span class="brand__wordmark">POLANI</span>
+          <span class="brand__sub">FRAGRANCE</span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-label="Open menu" data-nav-toggle>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+
+        <nav class="nav" aria-label="Primary" data-nav>
+          <a class="nav__link" href="index.html">Home</a>
+          <a class="nav__link is-active" href="men.html">Men</a>
+          <a class="nav__link" href="men.html#women">Women</a>
+          <a class="nav__link" href="men.html#attars">Attars</a>
+          <a class="nav__link" href="men.html#oud">Oud</a>
+          <a class="nav__link" href="index.html#signature">Signature</a>
+          <a class="nav__link" href="men.html#candles">Scented Candles</a>
+          <a class="nav__link" href="contact.html">Contact Us</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="icon-btn" type="button" aria-label="Search" data-search-open>
+            <span class="icon" aria-hidden="true" data-icon="search"></span>
+          </button>
+          <a class="icon-btn" href="cart.html" aria-label="Cart">
+            <span class="icon" aria-hidden="true" data-icon="cart"></span>
+            <span class="badge" data-cart-count>0</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="collection-hero">
+        <div class="collection-hero__bg" aria-hidden="true"></div>
+        <div class="container collection-hero__inner">
+          <div class="collection-hero__copy">
+            <div class="eyebrow">OUR COLLECTION</div>
+            <h1 class="collection-hero__title">Men</h1>
+            <p class="collection-hero__text">
+              Discover bold, refined and long-lasting fragrances crafted for the modern man.
+            </p>
+          </div>
+          <img class="collection-hero__img" src="assets/product-noir.svg" alt="" aria-hidden="true" />
+        </div>
+      </section>
+
+      <section class="section section--ivory">
+        <div class="container">
+          <div class="collection-head">
+            <div class="breadcrumbs">
+              <a href="index.html">Home</a> <span aria-hidden="true">›</span> <span>Men</span>
+            </div>
+            <div class="collection-head__right">
+              <div class="muted" data-results-count>Showing 1–12 of 0 products</div>
+              <label class="select">
+                <span class="sr-only">Sort</span>
+                <select data-sort>
+                  <option value="best" selected>Best Selling</option>
+                  <option value="price-asc">Price: Low to High</option>
+                  <option value="price-desc">Price: High to Low</option>
+                  <option value="rating-desc">Rating</option>
+                </select>
+              </label>
+            </div>
+          </div>
+
+          <div class="collection">
+            <aside class="filters" aria-label="Filters">
+              <div class="filters__title">Filter By</div>
+
+              <div class="filter">
+                <div class="filter__label">Categories</div>
+                <label class="check"><input type="radio" name="cat" value="all" checked data-filter-cat /> All</label>
+                <label class="check"><input type="radio" name="cat" value="men" data-filter-cat /> Men</label>
+                <label class="check"><input type="radio" name="cat" value="women" data-filter-cat /> Women</label>
+                <label class="check"><input type="radio" name="cat" value="attars" data-filter-cat /> Attars</label>
+                <label class="check"><input type="radio" name="cat" value="oud" data-filter-cat /> Oud</label>
+                <label class="check"><input type="radio" name="cat" value="candles" data-filter-cat /> Candles</label>
+              </div>
+
+              <div class="filter">
+                <div class="filter__label">Price</div>
+                <div class="range">
+                  <input type="range" min="29" max="350" value="350" step="1" data-filter-price />
+                  <div class="range__meta">
+                    <span>$29</span>
+                    <span class="muted">Up to <strong data-price-label>$350</strong></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="filter">
+                <div class="filter__label">Fragrance Family</div>
+                <label class="check"><input type="checkbox" value="citrus" data-filter-family /> Citrus</label>
+                <label class="check"><input type="checkbox" value="woody" data-filter-family /> Woody</label>
+                <label class="check"><input type="checkbox" value="spicy" data-filter-family /> Spicy</label>
+                <label class="check"><input type="checkbox" value="fresh" data-filter-family /> Fresh</label>
+                <label class="check"><input type="checkbox" value="amber" data-filter-family /> Amber</label>
+                <label class="check"><input type="checkbox" value="floral" data-filter-family /> Floral</label>
+                <label class="check"><input type="checkbox" value="musky" data-filter-family /> Musky</label>
+              </div>
+
+              <div class="filter">
+                <div class="filter__label">Occasion</div>
+                <label class="check"><input type="checkbox" value="daily" data-filter-occasion /> Daily Wear</label>
+                <label class="check"><input type="checkbox" value="office" data-filter-occasion /> Office</label>
+                <label class="check"><input type="checkbox" value="evening" data-filter-occasion /> Evening</label>
+                <label class="check"><input type="checkbox" value="luxury" data-filter-occasion /> Luxury Events</label>
+              </div>
+
+              <button class="btn btn--ghost btn--dark w-100" type="button" data-reset-filters>
+                Reset Filters
+              </button>
+            </aside>
+
+            <div class="collection__grid">
+              <div class="product-grid" data-product-grid="collection"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter section section--dark">
+        <div class="container newsletter__inner">
+          <div>
+            <h2 class="newsletter__title">Stay In Touch</h2>
+            <p class="newsletter__text">
+              Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.
+            </p>
+          </div>
+          <form class="newsletter__form" data-newsletter>
+            <label class="sr-only" for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="Enter your email" required />
+            <button class="btn btn--primary" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">POLANI<br /><span>FRAGRANCE</span></div>
+          <p class="footer__desc">Crafted with passion. Bottled with elegance.</p>
+        </div>
+        <div class="footer__col">
+          <div class="footer__title">Shop</div>
+          <a class="footer__link" href="men.html">Men</a>
+          <a class="footer__link" href="men.html#women">Women</a>
+          <a class="footer__link" href="men.html#attars">Attars</a>
+          <a class="footer__link" href="men.html#oud">Oud</a>
+          <a class="footer__link" href="men.html#candles">Scented Candles</a>
+        </div>
+        <div class="footer__col">
+          <div class="footer__title">Customer Care</div>
+          <a class="footer__link" href="contact.html">Contact</a>
+          <a class="footer__link" href="#">Returns</a>
+          <a class="footer__link" href="#">FAQ</a>
+        </div>
+        <div class="footer__col">
+          <div class="footer__title">Contact Us</div>
+          <div class="footer__info">Email: info@polanifragrance.com</div>
+          <div class="footer__info">Phone: +1 (234) 567-8900</div>
+        </div>
+      </div>
+      <div class="container footer__bottom">
+        <div class="footer__copy">© <span data-year></span> Polani Fragrance. All rights reserved.</div>
+      </div>
+    </footer>
+
+    <div class="drawer" role="dialog" aria-modal="true" aria-label="Search" hidden data-search>
+      <div class="drawer__overlay" data-search-close></div>
+      <div class="drawer__panel">
+        <div class="drawer__head">
+          <div class="drawer__title">Search</div>
+          <button class="icon-btn" type="button" aria-label="Close" data-search-close>
+            <span class="icon" aria-hidden="true" data-icon="x"></span>
+          </button>
+        </div>
+        <form class="search" data-search-form>
+          <label class="sr-only" for="q2">Search</label>
+          <input id="q2" name="q" class="search__input" type="search" placeholder="Search products…" />
+          <button class="btn btn--primary" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+

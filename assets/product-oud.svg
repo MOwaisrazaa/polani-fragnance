@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1200" viewBox="0 0 1000 1200">
+  <defs>
+    <radialGradient id="bg" cx="62%" cy="30%" r="85%">
+      <stop offset="0" stop-color="#2a2014"/>
+      <stop offset=".6" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#050505"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#f5e2bf"/>
+      <stop offset=".4" stop-color="#c6a46c"/>
+      <stop offset="1" stop-color="#8b6a32"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1200" fill="url(#bg)"/>
+  <g transform="translate(220,100)">
+    <rect x="170" y="0" width="260" height="120" rx="28" fill="url(#gold)"/>
+    <rect x="80" y="150" width="440" height="870" rx="74" fill="#0a0a0a"/>
+    <rect x="118" y="190" width="364" height="790" rx="64" fill="none" stroke="#c6a46c" stroke-opacity=".26" stroke-width="10"/>
+    <rect x="210" y="420" width="180" height="300" rx="22" fill="#0a0a0a" stroke="#c6a46c" stroke-opacity=".62" stroke-width="8"/>
+    <text x="300" y="530" font-size="40" text-anchor="middle" fill="#c6a46c" font-family="Georgia, serif" letter-spacing="7">OUD</text>
+    <text x="300" y="600" font-size="24" text-anchor="middle" fill="#c6a46c" font-family="Arial, sans-serif" letter-spacing="4" opacity=".85">SUPRÊME</text>
+  </g>
+</svg>
+

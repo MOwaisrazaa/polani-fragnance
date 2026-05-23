@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="980" viewBox="0 0 760 980">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f5e2bf"/>
+      <stop offset=".25" stop-color="#c6a46c"/>
+      <stop offset=".55" stop-color="#8b6a32"/>
+      <stop offset="1" stop-color="#e8d2a5"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="35%" cy="28%" r="70%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".26"/>
+      <stop offset=".45" stop-color="#ffffff" stop-opacity=".05"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#151515"/>
+      <stop offset=".55" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#030303"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="760" height="980" fill="none"/>
+
+  <g transform="translate(118,40)">
+    <!-- cap -->
+    <rect x="120" y="0" width="284" height="118" rx="26" fill="url(#g)"/>
+    <rect x="148" y="92" width="228" height="70" rx="18" fill="#0a0a0a" opacity=".25"/>
+    <rect x="160" y="24" width="204" height="64" rx="16" fill="url(#shine)" opacity=".9"/>
+
+    <!-- neck -->
+    <rect x="180" y="130" width="164" height="88" rx="18" fill="url(#g)" opacity=".95"/>
+
+    <!-- bottle -->
+    <rect x="22" y="210" width="480" height="650" rx="56" fill="url(#glass)"/>
+    <rect x="60" y="248" width="404" height="574" rx="44" fill="url(#shine)"/>
+    <rect x="64" y="252" width="396" height="566" rx="44" fill="none" stroke="#c6a46c" stroke-opacity=".22" stroke-width="6"/>
+
+    <!-- label -->
+    <rect x="136" y="370" width="252" height="330" rx="18" fill="#0a0a0a" stroke="#c6a46c" stroke-opacity=".55" stroke-width="5"/>
+    <text x="262" y="454" font-size="40" text-anchor="middle" fill="#c6a46c" font-family="Georgia, serif" letter-spacing="6">POLANI</text>
+    <text x="262" y="522" font-size="28" text-anchor="middle" fill="#c6a46c" font-family="Georgia, serif" letter-spacing="4">ELIXIR</text>
+    <text x="262" y="568" font-size="14" text-anchor="middle" fill="#c6a46c" font-family="Arial, sans-serif" letter-spacing="3" opacity=".9">EXTRAIT DE PARFUM</text>
+
+    <!-- base highlight -->
+    <path d="M60 780 C170 820, 300 820, 464 784" fill="none" stroke="#ffffff" stroke-opacity=".12" stroke-width="14" stroke-linecap="round"/>
+  </g>
+</svg>
+

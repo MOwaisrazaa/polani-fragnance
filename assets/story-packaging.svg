@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <radialGradient id="bg" cx="65%" cy="35%" r="90%">
+      <stop offset="0" stop-color="#2a2114"/>
+      <stop offset=".58" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#050505"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#f5e2bf"/>
+      <stop offset=".45" stop-color="#c6a46c"/>
+      <stop offset="1" stop-color="#8b6a32"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <g transform="translate(120,120)">
+    <rect x="0" y="140" width="560" height="460" rx="34" fill="#070707" stroke="url(#gold)" stroke-opacity=".25" stroke-width="10"/>
+    <rect x="54" y="200" width="452" height="340" rx="26" fill="none" stroke="#c6a46c" stroke-opacity=".2" stroke-width="8"/>
+    <text x="280" y="360" font-size="38" text-anchor="middle" fill="#c6a46c" font-family="Georgia, serif" letter-spacing="8">POLANI</text>
+    <text x="280" y="416" font-size="18" text-anchor="middle" fill="#c6a46c" font-family="Arial, sans-serif" letter-spacing="4" opacity=".9">FRAGRANCE</text>
+  </g>
+  <g transform="translate(760,240)">
+    <circle cx="150" cy="190" r="140" fill="rgba(198,164,108,.10)"/>
+    <path d="M150 78c80 70 92 170 0 254-92-84-80-184 0-254z" fill="rgba(255,255,255,.08)"/>
+    <circle cx="150" cy="190" r="90" fill="rgba(255,255,255,.04)"/>
+  </g>
+</svg>
+

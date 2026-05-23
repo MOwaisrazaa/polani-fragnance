@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1200" viewBox="0 0 1000 1200">
+  <defs>
+    <radialGradient id="bg" cx="40%" cy="28%" r="90%">
+      <stop offset="0" stop-color="#2a2014"/>
+      <stop offset=".65" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#050505"/>
+    </radialGradient>
+    <radialGradient id="flame" cx="50%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#fff7d1"/>
+      <stop offset=".55" stop-color="#f6c36a"/>
+      <stop offset="1" stop-color="#b15b1c"/>
+    </radialGradient>
+  </defs>
+  <rect width="1000" height="1200" fill="url(#bg)"/>
+  <g transform="translate(290,160)">
+    <path d="M210 0c60 60 60 120 0 180-60-60-60-120 0-180z" fill="url(#flame)"/>
+    <rect x="70" y="230" width="420" height="760" rx="70" fill="#0a0a0a" stroke="#c6a46c" stroke-opacity=".26" stroke-width="10"/>
+    <rect x="120" y="290" width="320" height="650" rx="60" fill="none" stroke="#c6a46c" stroke-opacity=".16" stroke-width="10"/>
+    <rect x="170" y="520" width="220" height="280" rx="22" fill="#0a0a0a" stroke="#c6a46c" stroke-opacity=".54" stroke-width="8"/>
+    <text x="280" y="640" font-size="34" text-anchor="middle" fill="#c6a46c" font-family="Georgia, serif" letter-spacing="7">POLANI</text>
+  </g>
+</svg>
+

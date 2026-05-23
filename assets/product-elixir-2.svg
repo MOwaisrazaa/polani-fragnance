@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1400" viewBox="0 0 1200 1400">
+  <defs>
+    <radialGradient id="bg" cx="45%" cy="25%" r="85%">
+      <stop offset="0" stop-color="#2b241a"/>
+      <stop offset=".6" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#050505"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#e8d2a5"/>
+      <stop offset=".5" stop-color="#c6a46c"/>
+      <stop offset="1" stop-color="#8b6a32"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1400" fill="url(#bg)"/>
+  <g transform="translate(290,160)">
+    <rect x="160" y="0" width="300" height="140" rx="34" fill="url(#gold)"/>
+    <rect x="200" y="148" width="220" height="90" rx="22" fill="url(#gold)" opacity=".9"/>
+    <rect x="60" y="250" width="500" height="860" rx="70" fill="#070707"/>
+    <rect x="92" y="290" width="436" height="780" rx="60" fill="none" stroke="#c6a46c" stroke-opacity=".35" stroke-width="10"/>
+    <rect x="188" y="470" width="244" height="360" rx="24" fill="#0a0a0a" stroke="#c6a46c" stroke-opacity=".75" stroke-width="8"/>
+    <text x="310" y="588" font-size="44" text-anchor="middle" fill="#c6a46c" font-family="Georgia, serif" letter-spacing="7">POLANI</text>
+    <text x="310" y="656" font-size="34" text-anchor="middle" fill="#c6a46c" font-family="Georgia, serif" letter-spacing="5">ELIXIR</text>
+  </g>
+</svg>
+

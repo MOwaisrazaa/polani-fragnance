@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1200" viewBox="0 0 1000 1200">
+  <defs>
+    <radialGradient id="bg" cx="60%" cy="30%" r="85%">
+      <stop offset="0" stop-color="#1a1a1a"/>
+      <stop offset=".6" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#050505"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#e8d2a5"/>
+      <stop offset=".5" stop-color="#c6a46c"/>
+      <stop offset="1" stop-color="#8b6a32"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1200" fill="url(#bg)"/>
+  <g transform="translate(210,90)">
+    <rect x="160" y="0" width="260" height="120" rx="28" fill="#121212" stroke="url(#gold)" stroke-opacity=".4" stroke-width="8"/>
+    <rect x="60" y="150" width="520" height="880" rx="72" fill="#070707"/>
+    <rect x="96" y="190" width="448" height="800" rx="62" fill="none" stroke="#c6a46c" stroke-opacity=".22" stroke-width="10"/>
+    <rect x="190" y="410" width="260" height="360" rx="22" fill="#0a0a0a" stroke="#c6a46c" stroke-opacity=".55" stroke-width="8"/>
+    <text x="320" y="520" font-size="44" text-anchor="middle" fill="#c6a46c" font-family="Georgia, serif" letter-spacing="7">POLANI</text>
+    <text x="320" y="600" font-size="34" text-anchor="middle" fill="#c6a46c" font-family="Georgia, serif" letter-spacing="5">NOIR</text>
+    <text x="320" y="660" font-size="18" text-anchor="middle" fill="#c6a46c" font-family="Arial, sans-serif" letter-spacing="4" opacity=".85">EAU DE PARFUM</text>
+  </g>
+</svg>
+

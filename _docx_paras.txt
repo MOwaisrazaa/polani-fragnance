@@ -1,0 +1,361 @@
+Polani Fragrance — Luxury Website Complete Development Brief
+Brand Identity
+Brand Name
+Polani Fragrance
+Brand Style
+Modern luxury fragrance & lifestyle brand
+Brand Feel
+Premium
+Elegant
+Dark luxury
+Sophisticated
+Minimalist
+High-end boutique aesthetic
+Main Categories
+Men
+Women
+Attars
+Oud
+Signature
+Scented Candles
+Contact Us
+1. WEBSITE STYLE GUIDE
+Colour Palette
+Primary Colours
+Purpose
+Colour
+HEX
+Main Background
+Matte Black
+#0A0A0A
+Secondary Background
+Ivory White
+#F6F1EB
+Gold Accent
+Luxury Gold
+#C6A46C
+Text Grey
+Soft Grey
+#B8B8B8
+Pure White
+White
+#FFFFFF
+Typography
+Heading Font
+Luxury Serif Font:
+Playfair Display
+Cormorant Garamond
+Body Font
+Minimal Sans Serif:
+Montserrat
+Poppins
+UI Style
+Soft animations
+Smooth hover effects
+Large spacing
+Clean layouts
+Thin borders
+Minimal text
+Cinematic product images
+2. WEBSITE STRUCTURE
+MAIN PAGES
+1. Home Page
+Sections Required
+HERO BANNER
+Banner Size
+Desktop:
+1920 × 900 px
+Mobile:
+1080 × 1350 px
+Hero Content
+Heading
+“More Than A Fragrance, It’s A Statement.”
+Subheading
+“Handcrafted extrait de parfum made for timeless elegance.”
+Buttons
+Discover Collection
+Shop Now
+Banner Style
+Dark background
+Gold lighting
+Luxury perfume bottle
+Smoke effect
+Oud wood props
+Soft cinematic shadows
+CATEGORY SECTION
+Categories
+Men
+Women
+Attars
+Signature
+Oud
+Scented Candles
+Category Image Size
+800 × 1000 px
+Style
+Minimal
+Dark
+Product-focused
+Consistent lighting
+SIGNATURE COLLECTION SECTION
+Featured Product
+Elixir
+Content
+Headline:“Elixir — The Essence of Timeless Luxury”
+Description:“A rich blend of rare ingredients crafted for unforgettable presence.”
+Product Image Size
+1200 × 1400 px
+WHY CHOOSE US SECTION
+Features
+Premium Quality
+Handcrafted
+Long Lasting
+Luxury Packaging
+Free Shipping
+Icons Style
+Minimal gold outline icons
+STORY SECTION
+Heading
+“Where Passion Becomes Perfume”
+Description
+Short luxury brand story
+Image Style
+Luxury packaging with flowers and satin cloth
+BEST SELLERS SECTION
+Products
+Elixir
+Noir
+Amber Oud
+Rose Noir Candle
+Oud Supreme
+Product Card Size
+600 × 750 px
+FOOTER
+Footer Sections
+About
+Quick Links
+Customer Support
+Policies
+Social Media
+Contact Information
+Footer Colour
+Pure black with gold typography
+2. PRODUCT LISTING PAGE
+Banner Size
+1920 × 500 px
+Product Grid Layout
+Desktop
+4 products per row
+Tablet
+2 products per row
+Mobile
+1 product per row
+Filters Required
+Category Filters
+Men
+Women
+Attars
+Oud
+Candles
+Fragrance Family Filters
+Woody
+Fresh
+Spicy
+Amber
+Floral
+Musky
+Occasion Filters
+Daily Wear
+Evening
+Office
+Luxury Events
+Product Card Structure
+Required Elements
+Product Image
+Product Name
+Product Type
+Price
+Ratings
+Add to Cart Button
+Wishlist Icon
+Product Image Size
+1000 × 1200 px
+3. PRODUCT DETAIL PAGE
+Layout Structure
+Left Side
+Product gallery images
+Right Side
+Product information
+Product Sections
+Product Name
+Example:Polani Elixir
+Product Type
+Extrait de Parfum
+Price
+Displayed prominently
+Notes Section
+Top NotesMiddle NotesBase Notes
+Additional Information
+Longevity
+Projection
+Best Season
+Occasion
+Buttons
+Add to Cart
+Buy Now
+Additional Sections
+Related Products
+Customer Reviews
+Shipping Information
+FAQ
+4. CONTACT US PAGE
+Banner Size
+1920 × 600 px
+Sections
+Left Side
+Luxury contact form
+Right Side
+Email
+Phone
+Address
+Working Hours
+Form Fields
+Name
+Email
+Subject
+Message
+Additional Features
+Embedded Google Map
+WhatsApp Button
+Social Media Links
+5. ABOUT US PAGE
+Banner Heading
+“Crafted With Passion”
+Sections
+Brand Story
+Mission
+Quality Promise
+Ingredients
+Packaging
+Founder Vision
+6. CART PAGE
+Features
+Product summary
+Coupon code
+Shipping calculator
+Checkout button
+7. CHECKOUT PAGE
+Required Fields
+Name
+Phone
+Address
+Email
+City
+Payment Method
+Payment Methods
+For Pakistan:
+COD
+Bank Transfer
+Easypaisa
+JazzCash
+3. IMAGE REQUIREMENTS
+PRODUCT PHOTOGRAPHY STYLE
+Lighting
+Warm cinematic lighting
+Gold reflections
+Soft shadows
+Background Props
+Satin cloth
+Oud wood
+Marble stone
+Candles
+Gold trays
+Flowers
+Photography Angles
+Front angle
+45-degree angle
+Close-up
+Lifestyle shot
+4. CONTENT REQUIREMENTS
+HOME PAGE CONTENT
+Taglines
+Crafted To Leave A Mark
+Luxury Bottled
+Timeless Elegance
+More Than Fragrance
+Scent Your Presence
+PRODUCT DESCRIPTION STYLE
+Structure
+Luxury intro
+Notes explanation
+Performance
+Occasion
+Example Description
+“Elixir is a sophisticated extrait de parfum crafted with warm amber, rich vanilla and subtle woody accords. Designed for individuals who appreciate timeless elegance and unforgettable presence.”
+5. TECHNICAL REQUIREMENTS
+PLATFORM
+Recommended:
+WordPress + WooCommerce
+REQUIRED PLUGINS
+Essential Plugins
+Elementor Pro
+WooCommerce
+WP Rocket
+Rank Math SEO
+LiteSpeed Cache
+Contact Form 7
+REQUIRED FEATURES
+Website Features
+Wishlist
+Quick View
+Mega Menu
+Product Filters
+Mobile Responsive
+Fast Loading
+SEO Optimised
+6. MOBILE DESIGN REQUIREMENTS
+Mobile UI
+Clean spacing
+Large buttons
+Sticky Add to Cart
+Fast loading
+Simplified menu
+7. SEO REQUIREMENTS
+Product SEO Structure
+Product Title Example
+“Polani Elixir Extrait de Parfum for Men & Women”
+Meta Description
+“Experience luxury with Polani Elixir — a long-lasting extrait de parfum crafted with rich amber, vanilla and woody accords.”
+8. SOCIAL MEDIA INTEGRATION
+Platforms
+Instagram
+TikTok
+Facebook
+YouTube
+9. PERFORMANCE REQUIREMENTS
+Speed Goals
+Under 3-second loading time
+Optimised images
+Lazy loading
+CDN enabled
+10. ADMIN PANEL REQUIREMENTS
+You Should Be Able To
+Add products
+Edit banners
+Change prices
+Add coupons
+Manage orders
+Track customers
+Update stock
+11. WEBSITE FEEL REFERENCE
+The website should feel like:
+Luxury fragrance boutique
+Modern designer brand
+Cinematic and premium
+Minimal but powerful
+NOT like:
+Daraz
+Cheap marketplace
+Overcrowded e-commerce store
+FINAL INSTRUCTION FOR DEVELOPER
+“The website must represent a premium luxury fragrance and lifestyle brand. The design should focus on elegance, minimalism, cinematic visuals, dark luxury aesthetics, smooth animations, and high-end product presentation. Every section should feel refined, spacious and visually premium.”

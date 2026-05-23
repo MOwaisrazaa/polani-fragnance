@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Polani Fragrance — Luxury Fragrance Boutique</title>
+    <meta
+      name="description"
+      content="More than a fragrance — it’s a statement. Handcrafted extrait de parfum made for timeless elegance."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="js/data.js"></script>
+    <script defer src="js/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="topbar">
+      <div class="container topbar__inner">
+        <div class="topbar__left">FREE SHIPPING ON ORDERS ABOVE $99</div>
+        <div class="topbar__right">
+          <a class="topbar__link" href="men.html">Track Order</a>
+          <span class="topbar__sep">|</span>
+          <a class="topbar__link" href="contact.html">Help</a>
+          <span class="topbar__sep">|</span>
+          <button class="topbar__btn" type="button" data-currency>
+            USD ($) <span aria-hidden="true">▾</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <header class="header" data-header>
+      <div class="container header__inner">
+        <a class="brand" href="index.html" aria-label="Polani Fragrance Home">
+          <span class="brand__wordmark">POLANI</span>
+          <span class="brand__sub">FRAGRANCE</span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-label="Open menu" data-nav-toggle>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+
+        <nav class="nav" aria-label="Primary" data-nav>
+          <a class="nav__link is-active" href="index.html">Home</a>
+          <a class="nav__link" href="men.html">Men</a>
+          <a class="nav__link" href="men.html#women">Women</a>
+          <a class="nav__link" href="men.html#attars">Attars</a>
+          <a class="nav__link" href="men.html#oud">Oud</a>
+          <a class="nav__link" href="index.html#signature">Signature</a>
+          <a class="nav__link" href="men.html#candles">Scented Candles</a>
+          <a class="nav__link" href="contact.html">Contact Us</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="icon-btn" type="button" aria-label="Search" data-search-open>
+            <span class="icon" aria-hidden="true" data-icon="search"></span>
+          </button>
+          <button class="icon-btn" type="button" aria-label="Account">
+            <span class="icon" aria-hidden="true" data-icon="user"></span>
+          </button>
+          <a class="icon-btn" href="cart.html" aria-label="Cart">
+            <span class="icon" aria-hidden="true" data-icon="cart"></span>
+            <span class="badge" data-cart-count>0</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="hero__bg" aria-hidden="true"></div>
+        <div class="container hero__inner">
+          <div class="hero__content">
+            <div class="hero__kicker">CRAFTED TO LEAVE A MARK</div>
+            <h1 class="hero__title">More than a fragrance,<br />it’s a statement.</h1>
+            <p class="hero__subtitle">
+              Handcrafted extrait de parfum made for timeless elegance.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="men.html">Discover Collection</a>
+              <a class="btn btn--ghost" href="men.html#bestsellers">Shop Now</a>
+            </div>
+
+            <div class="hero-dots" aria-label="Featured slides">
+              <button class="hero-dots__dot is-active" type="button" data-hero-dot="0">
+                <span class="sr-only">Slide 1</span>
+              </button>
+              <button class="hero-dots__dot" type="button" data-hero-dot="1">
+                <span class="sr-only">Slide 2</span>
+              </button>
+              <button class="hero-dots__dot" type="button" data-hero-dot="2">
+                <span class="sr-only">Slide 3</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="hero__media" aria-hidden="true">
+            <img class="hero__img" src="assets/hero-bottle.svg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--ivory" id="collections">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">Explore Our Collections</h2>
+            <div class="section-rule" aria-hidden="true"></div>
+          </div>
+
+          <div class="category-grid">
+            <a class="category-card" href="men.html">
+              <img src="assets/cat-men.svg" alt="" />
+              <div class="category-card__meta">
+                <span class="category-card__icon" aria-hidden="true" data-icon="men"></span>
+                <div class="category-card__label">MEN</div>
+              </div>
+            </a>
+            <a class="category-card" href="men.html#women">
+              <img src="assets/cat-women.svg" alt="" />
+              <div class="category-card__meta">
+                <span class="category-card__icon" aria-hidden="true" data-icon="women"></span>
+                <div class="category-card__label">WOMEN</div>
+              </div>
+            </a>
+            <a class="category-card" href="men.html#attars">
+              <img src="assets/cat-attars.svg" alt="" />
+              <div class="category-card__meta">
+                <span class="category-card__icon" aria-hidden="true" data-icon="attar"></span>
+                <div class="category-card__label">ATTARS</div>
+              </div>
+            </a>
+            <a class="category-card" href="#signature">
+              <img src="assets/cat-signature.svg" alt="" />
+              <div class="category-card__meta">
+                <span class="category-card__icon" aria-hidden="true" data-icon="star"></span>
+                <div class="category-card__label">SIGNATURE</div>
+              </div>
+            </a>
+            <a class="category-card" href="men.html#oud">
+              <img src="assets/cat-oud.svg" alt="" />
+              <div class="category-card__meta">
+                <span class="category-card__icon" aria-hidden="true" data-icon="oud"></span>
+                <div class="category-card__label">OUD</div>
+              </div>
+            </a>
+            <a class="category-card" href="men.html#candles">
+              <img src="assets/cat-candles.svg" alt="" />
+              <div class="category-card__meta">
+                <span class="category-card__icon" aria-hidden="true" data-icon="candle"></span>
+                <div class="category-card__label">SCENTED CANDLES</div>
+              </div>
+            </a>
+            <a class="category-card" href="contact.html">
+              <img src="assets/cat-contact.svg" alt="" />
+              <div class="category-card__meta">
+                <span class="category-card__icon" aria-hidden="true" data-icon="mail"></span>
+                <div class="category-card__label">CONTACT US</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="signature">
+        <div class="container split">
+          <div class="split__media">
+            <img class="frame-img" src="assets/product-elixir.svg" alt="Polani Elixir bottle" />
+          </div>
+          <div class="split__content">
+            <div class="eyebrow">OUR SIGNATURE</div>
+            <h2 class="split__title">Elixir — The Essence<br />of Timeless Luxury</h2>
+            <p class="split__text">
+              A rich blend of rare ingredients crafted for unforgettable presence.
+            </p>
+            <div class="split__actions">
+              <a class="btn btn--primary" href="product.html?id=elixir">Explore Elixir</a>
+            </div>
+
+            <div class="notes">
+              <div class="notes__col">
+                <div class="notes__label">TOP NOTES</div>
+                <div class="notes__value">Bergamot, Pink Pepper, Saffron</div>
+              </div>
+              <div class="notes__col">
+                <div class="notes__label">HEART NOTES</div>
+                <div class="notes__value">Rose, Jasmine, Oud</div>
+              </div>
+              <div class="notes__col">
+                <div class="notes__label">BASE NOTES</div>
+                <div class="notes__value">Amber, Vanilla, Musk, Patchouli</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--dark">
+        <div class="container">
+          <div class="section-head section-head--center">
+            <div class="eyebrow">WHY CHOOSE POLANI</div>
+            <h2 class="section-title section-title--small">Luxury, made effortless.</h2>
+          </div>
+
+          <div class="features">
+            <div class="feature">
+              <div class="feature__icon" aria-hidden="true" data-icon="quality"></div>
+              <div class="feature__title">Premium Quality</div>
+              <div class="feature__text">Finest ingredients sourced globally.</div>
+            </div>
+            <div class="feature">
+              <div class="feature__icon" aria-hidden="true" data-icon="hand"></div>
+              <div class="feature__title">Crafted With Care</div>
+              <div class="feature__text">Handcrafted to perfection.</div>
+            </div>
+            <div class="feature">
+              <div class="feature__icon" aria-hidden="true" data-icon="clock"></div>
+              <div class="feature__title">Long Lasting</div>
+              <div class="feature__text">Scents that stay with you.</div>
+            </div>
+            <div class="feature">
+              <div class="feature__icon" aria-hidden="true" data-icon="gift"></div>
+              <div class="feature__title">Luxury Packaging</div>
+              <div class="feature__text">Beautifully wrapped for you.</div>
+            </div>
+            <div class="feature">
+              <div class="feature__icon" aria-hidden="true" data-icon="truck"></div>
+              <div class="feature__title">Free Shipping</div>
+              <div class="feature__text">On orders above $99.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--ivory">
+        <div class="container split split--reverse" id="story">
+          <div class="split__media">
+            <img class="frame-img" src="assets/story-packaging.svg" alt="Luxury packaging" />
+          </div>
+          <div class="split__content">
+            <div class="eyebrow">OUR STORY</div>
+            <h2 class="split__title">Where Passion<br />Becomes Perfume</h2>
+            <p class="split__text">
+              Polani Fragrance is born from a love for fine scents and timeless elegance.
+              Each creation is handcrafted with warm cinematic notes — designed to leave a mark.
+            </p>
+            <div class="split__actions">
+              <a class="btn btn--ghost btn--dark" href="about.html">Read Our Story</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="bestsellers">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">Best Sellers</h2>
+            <div class="section-rule" aria-hidden="true"></div>
+          </div>
+
+          <div class="product-grid" data-product-grid="bestsellers"></div>
+        </div>
+      </section>
+
+      <section class="trust section section--ivory">
+        <div class="container trust__grid">
+          <div class="trust__item">
+            <span class="trust__icon" aria-hidden="true" data-icon="lock"></span>
+            <div class="trust__title">Secure Payment</div>
+            <div class="trust__text">100% secure checkout</div>
+          </div>
+          <div class="trust__item">
+            <span class="trust__icon" aria-hidden="true" data-icon="box"></span>
+            <div class="trust__title">Easy Returns</div>
+            <div class="trust__text">Hassle free returns</div>
+          </div>
+          <div class="trust__item">
+            <span class="trust__icon" aria-hidden="true" data-icon="badge"></span>
+            <div class="trust__title">100% Authentic</div>
+            <div class="trust__text">Original and authentic products</div>
+          </div>
+          <div class="trust__item">
+            <span class="trust__icon" aria-hidden="true" data-icon="headset"></span>
+            <div class="trust__title">Dedicated Support</div>
+            <div class="trust__text">We’re here to help you always</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">POLANI<br /><span>FRAGRANCE</span></div>
+          <p class="footer__desc">Crafted with passion. Bottled with elegance. Made for moments that matter.</p>
+          <div class="social">
+            <a class="social__link" href="#" aria-label="Instagram" data-icon="ig"></a>
+            <a class="social__link" href="#" aria-label="TikTok" data-icon="tt"></a>
+            <a class="social__link" href="#" aria-label="Facebook" data-icon="fb"></a>
+            <a class="social__link" href="#" aria-label="YouTube" data-icon="yt"></a>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          <div class="footer__title">Shop</div>
+          <a class="footer__link" href="men.html">Men</a>
+          <a class="footer__link" href="men.html#women">Women</a>
+          <a class="footer__link" href="men.html#attars">Attars</a>
+          <a class="footer__link" href="men.html#oud">Oud</a>
+          <a class="footer__link" href="index.html#signature">Signature</a>
+          <a class="footer__link" href="men.html#candles">Scented Candles</a>
+        </div>
+
+        <div class="footer__col">
+          <div class="footer__title">Customer Care</div>
+          <a class="footer__link" href="#">Track Order</a>
+          <a class="footer__link" href="#">Shipping &amp; Delivery</a>
+          <a class="footer__link" href="#">Returns &amp; Refunds</a>
+          <a class="footer__link" href="#">FAQ</a>
+          <a class="footer__link" href="#">Terms &amp; Conditions</a>
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </div>
+
+        <div class="footer__col">
+          <div class="footer__title">Contact Us</div>
+          <div class="footer__info">Email: info@polanifragrance.com</div>
+          <div class="footer__info">Phone: +1 (234) 567-8900</div>
+          <div class="footer__info">Mon–Fri: 9AM – 6PM (EST)</div>
+          <div class="footer__info">123 Luxury Lane, New York, NY 10001, USA</div>
+          <a class="footer__link footer__link--cta" href="contact.html">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="container footer__bottom">
+        <div class="footer__copy">© <span data-year></span> Polani Fragrance. All rights reserved.</div>
+        <div class="footer__payments" aria-label="Payments">
+          <span class="pay">VISA</span>
+          <span class="pay">MC</span>
+          <span class="pay">AMEX</span>
+          <span class="pay">PayPal</span>
+          <span class="pay">Apple Pay</span>
+        </div>
+      </div>
+    </footer>
+
+    <div class="drawer" role="dialog" aria-modal="true" aria-label="Search" hidden data-search>
+      <div class="drawer__overlay" data-search-close></div>
+      <div class="drawer__panel">
+        <div class="drawer__head">
+          <div class="drawer__title">Search</div>
+          <button class="icon-btn" type="button" aria-label="Close" data-search-close>
+            <span class="icon" aria-hidden="true" data-icon="x"></span>
+          </button>
+        </div>
+        <form class="search" data-search-form>
+          <label class="sr-only" for="q">Search</label>
+          <input id="q" name="q" class="search__input" type="search" placeholder="Search products…" />
+          <button class="btn btn--primary" type="submit">Search</button>
+        </form>
+        <div class="search__hint">Tip: try “Elixir”, “Oud”, “Candle”.</div>
+      </div>
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1200" viewBox="0 0 1000 1200">
+  <defs>
+    <radialGradient id="bg" cx="60%" cy="30%" r="85%">
+      <stop offset="0" stop-color="#10202c"/>
+      <stop offset=".62" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#050505"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#1c2f3a"/>
+      <stop offset="1" stop-color="#0a0a0a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1200" fill="url(#bg)"/>
+  <g transform="translate(230,110)">
+    <rect x="170" y="0" width="240" height="110" rx="24" fill="#101010" stroke="#c6a46c" stroke-opacity=".25" stroke-width="8"/>
+    <rect x="60" y="150" width="480" height="850" rx="70" fill="url(#glass)"/>
+    <rect x="100" y="200" width="400" height="750" rx="60" fill="none" stroke="#c6a46c" stroke-opacity=".18" stroke-width="10"/>
+    <rect x="200" y="420" width="200" height="320" rx="22" fill="#0a0a0a" stroke="#c6a46c" stroke-opacity=".5" stroke-width="8"/>
+    <text x="300" y="540" font-size="40" text-anchor="middle" fill="#c6a46c" font-family="Georgia, serif" letter-spacing="7">POLANI</text>
+    <text x="300" y="615" font-size="30" text-anchor="middle" fill="#c6a46c" font-family="Georgia, serif" letter-spacing="5">BLEU</text>
+  </g>
+</svg>
+

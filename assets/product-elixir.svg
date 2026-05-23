@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1400" viewBox="0 0 1200 1400">
+  <defs>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#f5e2bf"/>
+      <stop offset=".35" stop-color="#c6a46c"/>
+      <stop offset=".7" stop-color="#8b6a32"/>
+      <stop offset="1" stop-color="#e8d2a5"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="65%" cy="30%" r="80%">
+      <stop offset="0" stop-color="#2a2114"/>
+      <stop offset=".55" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#050505"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="1400" fill="url(#bg)"/>
+  <g transform="translate(260,120)">
+    <rect x="120" y="0" width="440" height="170" rx="40" fill="url(#gold)"/>
+    <rect x="200" y="180" width="280" height="120" rx="24" fill="url(#gold)" opacity=".92"/>
+    <rect x="0" y="310" width="680" height="920" rx="80" fill="#0a0a0a"/>
+    <rect x="32" y="350" width="616" height="840" rx="70" fill="none" stroke="#c6a46c" stroke-opacity=".35" stroke-width="10"/>
+    <rect x="170" y="520" width="340" height="420" rx="24" fill="#0a0a0a" stroke="#c6a46c" stroke-opacity=".7" stroke-width="8"/>
+    <text x="340" y="635" font-size="56" text-anchor="middle" fill="#c6a46c" font-family="Georgia, serif" letter-spacing="8">POLANI</text>
+    <text x="340" y="720" font-size="44" text-anchor="middle" fill="#c6a46c" font-family="Georgia, serif" letter-spacing="6">ELIXIR</text>
+    <text x="340" y="785" font-size="18" text-anchor="middle" fill="#c6a46c" font-family="Arial, sans-serif" letter-spacing="4" opacity=".9">EXTRAIT DE PARFUM</text>
+  </g>
+</svg>
+
