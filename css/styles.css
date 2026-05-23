@@ -189,6 +189,73 @@ button,input,select,textarea{font:inherit}
   align-items:center;
   overflow:hidden;
 }
+.hero--noir .hero__inner{grid-template-columns:1fr; padding:88px 0}
+.hero--noir .hero__bg{
+  background-image:url("../assets/hero-noir-elixir.png");
+  background-size:cover;
+  background-position:right center;
+  background-repeat:no-repeat;
+}
+.hero--noir .hero__bg:after{display:none}
+.hero--noir .hero__content{max-width:760px}
+.hero--noir .hero__title{
+  font-size:68px;
+  color:#b9925a;
+  text-shadow:0 10px 30px rgba(0,0,0,.55);
+}
+.hero--noir .hero__subtitle{max-width:560px; color:rgba(255,255,255,.72)}
+.hero--noir .hero__actions{margin-top:26px; gap:18px}
+.hero--noir .btn{border-radius:6px; padding:13px 26px; min-height:48px}
+.hero--noir .btn--primary{
+  background:#b9925a;
+  color:#101010;
+  border-color:rgba(0,0,0,.26);
+  box-shadow:none;
+}
+.hero--noir .btn--primary:hover{filter:brightness(1.04); box-shadow:none}
+.hero--noir .btn--ghost{
+  border-color:rgba(185,146,90,.65);
+  color:#b9925a;
+  background:transparent;
+}
+.hero--noir .btn--ghost:hover{border-color:rgba(185,146,90,.95); color:#c6a46c}
+
+.hero__mark{
+  display:inline-flex;
+  flex-direction:column;
+  gap:6px;
+  margin-bottom:22px;
+}
+.hero__mark-word{
+  font-family:var(--serif);
+  font-weight:600;
+  letter-spacing:.18em;
+  font-size:18px;
+  color:rgba(185,146,90,.92);
+}
+.hero__mark-sub{
+  font-size:10px;
+  letter-spacing:.42em;
+  color:rgba(255,255,255,.7);
+}
+.hero__divider{
+  width:min(520px, 100%);
+  height:1px;
+  background:rgba(185,146,90,.35);
+  margin:18px 0 18px;
+  position:relative;
+}
+.hero__divider:after{
+  content:"";
+  position:absolute;
+  left:50%;
+  top:50%;
+  width:10px;
+  height:10px;
+  transform:translate(-50%, -50%) rotate(45deg);
+  border:1px solid rgba(185,146,90,.55);
+  background:rgba(10,10,10,.72);
+}
 .hero__bg{
   position:absolute; inset:0;
   background:
@@ -1116,6 +1183,9 @@ button,input,select,textarea{font:inherit}
   .hero__inner,.collection-hero__inner{grid-template-columns:1fr}
   .hero__media{justify-content:center; margin-top:10px}
   .hero__title{font-size:44px}
+  .hero--noir .hero__inner{padding:64px 0}
+  .hero--noir .hero__title{font-size:46px}
+  .hero--noir .btn{width:auto}
   .collection-hero__title{font-size:44px}
   .split{grid-template-columns:1fr}
   .split--reverse .split__media{order:0}
